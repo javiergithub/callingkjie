@@ -1,7 +1,4 @@
-Games,1,OK,2.0
-Games,2,NOT_OK,1.0
-Books,3,NOT_OK,2.5
-Books,4,OK,4.0
-Books,5,OK,5.0
-Games,6,NOT_OK,5.5
-Games,7,OK,1.1
+3,vfr,vfr 3,crc1 3,udf1 3,udf2 3
+43,rdf,rdf 43,crc1 43,udf1 43,udf2 43
+65,ytr,ytr 65,crc1 65,udf1 65,udf2 65
+78,jhg,jhg 78,crc1 78,udf1 78,udf2 78

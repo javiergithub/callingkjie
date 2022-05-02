@@ -13,9 +13,9 @@ public class AppConfiguration {
 
   @Bean
   public KieServicesClient kieServicesClient(
-          @Value("${KIE_SERVER_REST_ENDPOINT}") String kieRestEndpoint,
-          @Value("${KIE_SERVER_USER}") String kieUser,
-          @Value("${KIE_SERVER_PASSWORD}") String kiePassword,
+          @Value("${KIE_SERVER_REST_ENDPOINT:172.17.0.3:8080/kie-server/services/rest/server}") String kieRestEndpoint,
+          @Value("${KIE_SERVER_USER:admin}") String kieUser,
+          @Value("${KIE_SERVER_PASSWORD:admin}") String kiePassword,
           @Value("${EXECUTION_TIMEOUT:100000}") Integer executionTimeout) {
     KieServicesConfiguration conf = KieServicesFactory.newRestConfiguration(kieRestEndpoint, kieUser, kiePassword);
     conf.setMarshallingFormat(MarshallingFormat.JSON);

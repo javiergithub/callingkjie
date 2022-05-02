@@ -60,11 +60,6 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.test</groupId>
-      <artifactId>ImportProducts</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-compiler-plugin</artifactId>
       <version>${maven-compiler-plugin.version}</version>
@@ -79,6 +74,11 @@
       <artifactId>kie-server-client</artifactId>
       <version>${drools.version}</version>
     </dependency>
+	<dependency>
+		<groupId>com.castine.timload</groupId>
+		<artifactId>map291</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</dependency>
 
     <dependency>
       <groupId>org.drools</groupId>
